@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300&display=swap');
+
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
