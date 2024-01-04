@@ -53,7 +53,7 @@ nav {
 }
 
 .nav-links li a:hover {
-    color: #628A60;
+    color: #95AA8A;
     text-decoration: underline solid transparent;
     transition: text-decoration 1s ease;
     font-weight: 700;
@@ -148,7 +148,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0, 228, 52, 0.5);
+    background-color: #95AA8A;
     box-shadow: 0 4px 8px #434C45;
 }
 
