@@ -47,7 +47,10 @@ nav {
 
 .nav-links,
 .nav-anchors {
-    padding: 0px 20px;
+    display: block;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 10px 0px 40px;
     transition: all 0.3s ease 0s;
 }
 
