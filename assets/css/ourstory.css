@@ -120,7 +120,9 @@ main {
     box-shadow: 0 4px 8px #434C45;
 }
 
-.about-text {
+.about-text,
+.future-text,
+.ingredients-text {
     padding: 10px 10px;
     width: 100%;
     text-align: justify;
@@ -152,8 +154,18 @@ main {
 
 #future-heading {
     color: #434C45;
+    text-align: center
 }
 
 .future-text {
     color: #434C45;
+}
+
+.future-img,
+.ingredients-img {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0px 10px 0px 10px;
 }
