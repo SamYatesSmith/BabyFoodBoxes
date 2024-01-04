@@ -73,7 +73,7 @@ nav {
 
 main {
     background-color: #628A60;
-    padding: 10px;
+    padding: 8px;
 }
 
 #headline {
@@ -88,18 +88,18 @@ main {
 }
 
 .top-heading {
-    color: #FFFFFF;
+    color: whitesmoke;
     font-family: 'Caveat', cursive;
     font-weight: 100;
     padding-top: 1%;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .bottom-heading {
-    font-size: 2em;
+    font-size: 1.3em;
     font-family: 'Kalam', cursive;
     padding-top: 2%;
-    color: #373038;
+    color: #434C45;
 }
 
 .h2-titleHeading {
@@ -112,11 +112,12 @@ main {
 #ingredients {
     background-color: #95AA8A;
     position: relative;
-    margin: 6px;
+    margin: 8px 0;
     height: auto;
     border: 1px solid #434C45;
     padding: 2%;
     border-radius: 8px;
+    box-shadow: 0 4px 8px #434C45;
 }
 
 .about-text {
@@ -132,5 +133,4 @@ main {
     width: 100%;
     height: auto;
     border-radius: 8px;
-
 }
