@@ -21,7 +21,6 @@ header {
     position: relative;
     z-index: 99;
     width: 100%;
-    border-bottom: #434C45;
 }
 
 nav {
@@ -77,7 +76,6 @@ main {
 
 .background-img-container {
     display: flex;
-    border-bottom: 1px solid #434C45;
     text-align: center;
     position: relative;
 }
@@ -98,11 +96,12 @@ main {
     text-indent: 20px;
     text-align: center;
     padding: 8px 12px;
-    box-shadow: 5px 5px 10px 05px 5px #daf6d9, -5px -5px 10px 5px #dff2e8;
     opacity: 0.8;
     background-color: #628A60;
     font-family: 'Kalam', cursive;
     color: whitesmoke;
+    border-top: 2px solid #434C45;
+    border-bottom: 2px solid #434C45;
 }
 
 .abitaboutus {
@@ -115,8 +114,22 @@ main {
     text-indent: 20px;
     text-align: center;
     padding: 8px 12px;
-    box-shadow: 5px 5px 10px 0px #daf6d9, -5px -5px 10px 0px #dff2e8;
     opacity: 0.8;
+    border-top: 2px solid #434C45;
+    border-bottom: 2px solid #434C45;
+}
+
+.abitaboutus>p>a {
+    font-weight: 550;
+    text-decoration: none;
+    color: #434C45;
+}
+
+.abitaboutus>p>a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+    text-decoration: underline solid transparent;
+    transition: text-decoration 1s ease;
 }
 
 /* footer styling  */
@@ -136,7 +149,7 @@ footer {
 }
 
 button {
-
+    font-family: 'Kalam', cursive;
     padding: 12px 25px;
     background-color: #628A60;
     border: none;
