@@ -134,3 +134,26 @@ main {
     height: auto;
     border-radius: 8px;
 }
+
+#future {
+    background-color: rgb(221, 229, 182);
+}
+
+.future-collection,
+.ingredients-collection {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.ingredients-text {
+    color: whitesmoke;
+}
+
+#future-heading {
+    color: #434C45;
+}
+
+.future-text {
+    color: #434C45;
+}
