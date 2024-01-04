@@ -11,13 +11,14 @@
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: 'Kalam', cursive;
 }
 
 header {
+    background-color: whitesmoke;
     padding: 1rem 1rem;
-    position: fixed;
+    position: relative;
     z-index: 99;
     width: 100%;
     border-bottom: #434C45;
@@ -63,12 +64,19 @@ nav {
     width: 5rem;
     border-radius: 10px;
     border: 1px solid black;
+    box-shadow: 0 4px 8px #434C45;
 }
 
 /* main styling */
 
-.background-img-container {
+main {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
 
+.background-img-container {
+    display: flex;
     border-bottom: 1px solid #434C45;
     text-align: center;
     position: relative;
@@ -82,15 +90,68 @@ nav {
 }
 
 .tagline {
+    flex: 1;
+    position: relative;
     width: 100%;
-    font-size: 25px;
-    font-weight: 450;
+    font-size: 16px;
+    font-weight: 400;
+    text-indent: 20px;
+    text-align: center;
+    padding: 8px 12px;
+    box-shadow: 5px 5px 10px 05px 5px #daf6d9, -5px -5px 10px 5px #dff2e8;
+    opacity: 0.8;
+    background-color: #628A60;
+    font-family: 'Kalam', cursive;
+    color: whitesmoke;
+}
+
+.abitaboutus {
+    background-color: #628A60;
+    color: whitesmoke;
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
     text-indent: 20px;
     text-align: center;
     padding: 8px 12px;
     box-shadow: 5px 5px 10px 0px #daf6d9, -5px -5px 10px 0px #dff2e8;
     opacity: 0.8;
+}
+
+/* footer styling  */
+
+footer {
+    font-size: 12px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #434C45;
+    text-align: right;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+
+    padding: 12px 25px;
     background-color: #628A60;
-    font-family: 'Kalam', cursive;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
     color: whitesmoke;
+    margin-bottom: 22px;
+}
+
+button:hover {
+    background-color: rgba(0, 228, 52, 0.5);
+    box-shadow: 0 4px 8px #434C45;
+}
+
+.footer-info-container {
+    position: relative;
 }
