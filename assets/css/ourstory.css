@@ -71,6 +71,8 @@ nav {
     box-shadow: 0 4px 8px #434C45;
 }
 
+/* Main styling */
+
 main {
     background-color: #628A60;
     padding: 8px;
@@ -168,4 +170,42 @@ main {
     width: 100%;
     border-radius: 8px;
     padding: 0px 10px 0px 10px;
+}
+
+/* footer styling  */
+
+footer {
+    font-size: 12px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #434C45;
+    text-align: right;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #434C45;
+}
+
+button {
+    font-family: 'Kalam', cursive;
+    padding: 12px 25px;
+    background-color: #628A60;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: whitesmoke;
+    margin-bottom: 22px;
+}
+
+button:hover {
+    background-color: #95AA8A;
+    box-shadow: 0 4px 8px #434C45;
+}
+
+.footer-info-container {
+    position: relative;
 }
