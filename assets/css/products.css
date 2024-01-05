@@ -249,3 +249,33 @@ button:hover {
         margin: 3%
     }
 }
+
+@media screen and (min-width: 1200px) {
+    nav {
+        margin-right: 12%;
+        font-size: 25px;
+    }
+
+    .logo {
+        height: 7rem;
+        width: 7rem;
+    }
+
+
+    .recipe-list {
+        font-size: 25px;
+    }
+
+    .recipes>h3 {
+        font-size: 30px;
+    }
+
+    .recipes>h2 {
+        font-size: 35px;
+    }
+
+    .recipes {
+        margin-left: 4%;
+        margin-top: 4%;
+    }
+}
