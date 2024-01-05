@@ -22,6 +22,7 @@ header {
     position: relative;
     z-index: 99;
     width: 100%;
+    border-bottom: 2px solid #434C45;
 }
 
 nav {
@@ -86,7 +87,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-top: 2px solid #434C45;
+
 }
 
 .top-heading {
@@ -129,9 +130,9 @@ main {
     margin-left: 50px;
 }
 
-.recipe-list>h2 {
+/* .recipe-list>h2 {
     display: flex;
-}
+} */
 
 .recipe-vid-container {
     width: 100%;
@@ -149,4 +150,24 @@ main {
 #recipe-vid {
     width: 100%;
     height: auto;
+}
+
+.product-grid {
+    color: #434C45;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid #434C45;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #434C45;
+    padding: 3%;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(221, 229, 182);
 }
