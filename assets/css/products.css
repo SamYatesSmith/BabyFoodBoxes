@@ -243,5 +243,9 @@ button:hover {
         align-items: flex-end;
         width: 40%;
         height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #434C45;
+        margin: 3%
     }
 }
