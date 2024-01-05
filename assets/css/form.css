@@ -104,19 +104,14 @@ main {
     width: 100%;
     height: auto;
     position: relative;
-    /* order: 2; */
-    display: block;
-    justify-content: center;
-    align-items: center;
     border-top: 2px solid #434C45;
 }
 
 #righthandside-img {
-    display: block;
     justify-content: center;
     align-items: center;
-    height: 100%;
     width: 100%;
+    height: 100%;
 }
 
 /* .grid-container {
@@ -204,4 +199,78 @@ button:hover {
 
 .footer-info-container {
     position: relative;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Header Queries */
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-anchors {
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    #img-container {
+        border: none;
+        display: flex;
+        align-items: flex-end;
+        width: 60%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-left: 20%;
+        margin-bottom: 4%;
+        box-shadow: 0 4px 8px #434C45;
+    }
+
+    #righthandside-img {
+        border: 2px solid #434C45;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .questions {
+        display: block;
+    }
+
+    label,
+    input {
+        font-size: 17px;
+    }
+
+    legend {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Header Queries */
+
+    nav {
+        margin-right: 12%;
+        font-size: 25px;
+    }
+
+    .logo {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .top-heading {
+        font-size: 4rem;
+    }
+
+    .bottom-heading {
+        font-size: 2rem;
+    }
+
+    .containterHeading {
+        font-size: 25px;
+    }
 }
