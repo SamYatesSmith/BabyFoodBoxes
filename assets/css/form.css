@@ -72,8 +72,6 @@ nav {
 
 /* Main styling */
 
-.formbackdrop {}
-
 .mainTitle {
     width: 100%;
     background-color: #628A60;
@@ -82,8 +80,6 @@ nav {
     justify-content: center;
     text-align: center;
     border-top: 2px solid #434C45;
-    border-bottom: 1px solid #434C45;
-    box-shadow: 0px 0px 4px 2px #434C45;
 }
 
 .top-heading {
@@ -112,12 +108,7 @@ main {
     display: block;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
     border-top: 2px solid #434C45;
-    border-bottom: 2px solid #434C45;
-
-    /* margin: 10px 20px; */
-    /* padding: 20px; */
 }
 
 #righthandside-img {
@@ -126,7 +117,6 @@ main {
     align-items: center;
     height: 100%;
     width: 100%;
-    box-shadow: 2px 2px 6px 2px #434C45, -2px -2px 6px 2px#434C45;
 }
 
 /* .grid-container {
@@ -136,7 +126,6 @@ main {
     margin: 10px 20px;
 } */
 .grid-container {
-    margin-top: 15px;
     border-top: 2px solid #434C45;
     border-bottom: 2px solid #434C45;
 }
