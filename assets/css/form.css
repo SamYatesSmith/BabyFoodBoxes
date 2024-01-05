@@ -130,12 +130,12 @@ main {
     border-bottom: 2px solid #434C45;
 }
 
-.details {
+.details,
+.questions {
     /* order: 1; */
     width: 100%;
     padding: 6px;
     background-color: whitesmoke;
-    box-shadow: 0 4px 8px #434C45;
 }
 
 fieldset {
@@ -145,9 +145,25 @@ fieldset {
 label,
 input {
     display: inline-block;
+    font-size: 14px;
+}
+
+label {
+    cursor: pointer;
 }
 
 input {
     width: 95%;
     font-family: 'Kalam', cursive;
+}
+
+legend {
+    padding-top: 5px;
+    font-weight: 550;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
