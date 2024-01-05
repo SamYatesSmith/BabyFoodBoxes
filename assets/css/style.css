@@ -168,3 +168,43 @@ button:hover {
 .footer-info-container {
     position: relative;
 }
+
+@media screen and (min-width: 768px) {
+
+    /* Header Queries */
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-anchors {
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    .tagline,
+    .abitaboutus {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Header Queries */
+
+    nav {
+        margin-right: 12%;
+        font-size: 25px;
+    }
+
+    .logo {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .tagline,
+    .abitaboutus {
+        font-size: 25px;
+    }
+}
