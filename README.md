@@ -51,7 +51,7 @@ Happy Baby Belly (HBB) is a holding site for a new business that supplies locall
 
 **Deployment**
 
-
+ - Deployed via github pages successfully
 
 **Content**  &  **Credits**
 
