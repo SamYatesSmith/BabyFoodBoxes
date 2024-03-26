@@ -7,17 +7,23 @@ Happy Baby Belly (HBB) is a holding site for a new business that supplies locall
 ### Title & Sub-title
 - This top title only appears on the Home page.  Its purpose is to advise user as to the general outlook of the business. 
 
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/title.png">
+
 ### Navigation Bar
 
 - The navigation bar is present on all 4 pages. This bar is fully responsive and link the user to the following pages: Home, Our Story, Products and 'interested? which is a usable form.
 - This section allows the user to easily jump from page to page at any viewport width/height.  Is fully responsive.
 - Visually pleasing underline upon hover that slowly fades.
 
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/navigation.png">
+
 ### Main
 
 The main elements of the page consist of the following: 
 - a top tagline, in the form of a poem and the bottom information section offering a general introduction to Happy Baby Belly.
 - Sandwiched between these is a fully responsive picture of some of the produce you may expect from a HBB basket.
+
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/main.png">
 
 ### Footer
 
@@ -26,27 +32,45 @@ The footer contains:
 - A link to external social media sites alongside their logos
 - A contact butto nthat opens users email. Company target email address will already be filled in. 
 
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/footer.png">
+
 ### Our Story
 
 - This fully responsive page offers various information about the prospective company. A full background, an insight into what the future holds once HBB trades and a detailed look into local suppliers hoping to offer their produce to a local market.
+
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/storysofarblurb.png">
+
 - The page comprises of numerous photos of HBB's network of farmers, happily going about their business. These HQ images are initially laid in a block stance and change to a horizontal grid upon re-sizing.
 - There are links around the page built into the text. These offer easier navigation to the user and are styled in the same way as the navigation bars links, to ensure subtle continuity around the site.
 
-
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/ourfuturepledgeblurb.png">
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/ingredientsandsourceblurb.png">
 
 ### Products
 
 - The product page gives example recipes to the potential user and a small inserted autoplaying, controllable, looped video showing a typical family. 
+
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/recipeexample.png">
+
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/video.png">
+
 - The page is fully responsive and, upon resizing, unearths an image that would otherwise be hidden owing to the screen size.
 - With more time and the allowed use of javascript, I intended to add a pop up upon hover for the 3 day, 5 day, 7 day boxes. This would give the user the opportunity to see the typical inclusions within a HBB box for these package sizes.
+
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/357.png">
 
 ### Interested
 
 - 'Interested?' is the customer user form. 
 - This form compiles data from the user regarding name, surname, email and county in which one lives, via a drop down bar.
+
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/basicinfoform.png">
+
 - Primarily the form comprises of radio, checkboxes and text areas.
 - Also within this page is a photo, whose radius changes upon resize.
 - Again, this page is fully responsive to screen size changes.
+
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/formexample.png">
 
 ## Features left to implement
 
@@ -57,10 +81,12 @@ The footer contains:
 
 ## Testing
 
-All links, buttons and resizing work as intended. No obvious errors or issues with the code.
-The main issue is with an @import font trnsfer that "codeAnywhere" throws up a yellow warning for. I am unsure as to why this is currently occuring.
-I addressed numerous issues in relation to position of elements upon re-sizing. These were all successfully resolved. However,  I meed to address issues where at extremely large screen size, the images distort and become too large in comparison with the other elements of the site.
-HTML validator shows numerous info insights on elements such as img's or link's ending with the follwoing />. I remove, save and they all return. Assume this is owing to an extension adding them.
+- All links, buttons and resizing work as intended. No obvious errors or issues with the code.
+- The main issue is with an @import font trnsfer that "codeAnywhere" throws up a yellow warning for. I am unsure as to why this is currently occuring.
+- I addressed numerous issues in relation to position of elements upon re-sizing. These were all successfully resolved. However,  I meed to address issues where at extremely large screen size, the images distort and become too large in comparison with the other elements of the site.
+- Tested form submission and found it working, all OK.
+
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/formexample.png">
 
 ## Validator Testing
 
