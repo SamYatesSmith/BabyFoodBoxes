@@ -6,6 +6,28 @@
     padding: 0;
 }
 
+.site-title {
+    background-color: #628A60;
+    color: whitesmoke;
+    font-family: 'Kalam', cursive;
+    height: auto;
+    width: 100%;
+    border-top: 2px solid #434C45;
+    border-bottom: 2px solid #434C45;
+    opacity: 0.8;
+}
+
+.site-title h1, .site-title h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.site-title h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 400;
+}
+
 /* header styling */
 
 body {

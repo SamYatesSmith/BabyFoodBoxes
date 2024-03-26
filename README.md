@@ -4,6 +4,9 @@ Happy Baby Belly (HBB) is a holding site for a new business that supplies locall
 
 ## Features
 
+### Title & Sub-title
+- This top title only appears on the Home page.  Its purpose is to advise user as to the general outlook of the business. 
+
 ### Navigation Bar
 
 - The navigation bar is present on all 4 pages. This bar is fully responsive and link the user to the following pages: Home, Our Story, Products and 'interested? which is a usable form.
@@ -16,11 +19,20 @@ The main elements of the page consist of the following:
 - a top tagline, in the form of a poem and the bottom information section offering a general introduction to Happy Baby Belly.
 - Sandwiched between these is a fully responsive picture of some of the produce you may expect from a HBB basket.
 
+### Footer
+
+The footer contains:
+- The company logo.
+- A link to external social media sites alongside their logos
+- A contact butto nthat opens users email. Company target email address will already be filled in. 
+
 ### Our Story
 
 - This fully responsive page offers various information about the prospective company. A full background, an insight into what the future holds once HBB trades and a detailed look into local suppliers hoping to offer their produce to a local market.
 - The page comprises of numerous photos of HBB's network of farmers, happily going about their business. These HQ images are initially laid in a block stance and change to a horizontal grid upon re-sizing.
-There are links around the page built into the text. These offer easier navigation to the user and are styled in the same way as the navigation bars links, to ensure subtle continuity around the site.
+- There are links around the page built into the text. These offer easier navigation to the user and are styled in the same way as the navigation bars links, to ensure subtle continuity around the site.
+
+
 
 ### Products
 
@@ -38,7 +50,7 @@ There are links around the page built into the text. These offer easier navigati
 
 ## Features left to implement
 
-- I would like to add a Javascript corusel to the various groups of photos on the pages. This would free up space and offer more functionality.
+- I would like to add a Javascript corusel to the various groups of photos on the pages. This would free up space, offer more functionality and provide a more succint message.
 - The javascript pop up alerts for the typical ingredient boxes would be a nice user feature to add (as stated above in "interested" section.)
 - The final question on the form mentions a project which i would like to build and link to this site.
 - Proper favicon HBB icon on the web browser heading.
