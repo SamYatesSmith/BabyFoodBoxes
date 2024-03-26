@@ -182,6 +182,18 @@ footer {
     border-top: 2px solid #434C45;
 }
 
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 15px;
+}
+
+.social-media-icons a {
+    text-decoration: none;
+}
+
 button {
     font-family: 'Kalam', cursive;
     padding: 12px 25px;
