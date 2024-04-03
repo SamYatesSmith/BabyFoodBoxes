@@ -242,7 +242,7 @@ footer {
     text-decoration: none;
 }
 
-button {
+.cta {
     font-family: 'Kalam', cursive;
     padding: 12px 25px;
     background-color: #628A60;
@@ -254,13 +254,18 @@ button {
     margin-bottom: 22px;
 }
 
-button:hover {
+.cta:hover {
     background-color: #95AA8A;
     box-shadow: 0 4px 8px #434C45;
 }
 
+.footer-info-container p {
+    margin-top: 15px;
+}
+
 .footer-info-container {
     position: relative;
+    margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {

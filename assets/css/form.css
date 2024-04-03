@@ -138,7 +138,7 @@ label {
 
 input {
     width: 95%;
-    font-family: 'Kalam', cursive;
+font-family: 'Kalam', 'cursive';
 }
 
 legend {
@@ -182,7 +182,7 @@ footer {
 }
 
 button {
-    font-family: 'Kalam', cursive;
+    font-family: 'Kalam', 'cursive';
     padding: 12px 25px;
     background-color: #628A60;
     border: none;
@@ -203,8 +203,6 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
-
-    /* Header Queries */
 
     .nav-links {
         display: flex;
@@ -250,8 +248,6 @@ button:hover {
 }
 
 @media screen and (min-width: 1200px) {
-
-    /* Header Queries */
 
     nav {
         margin-right: 12%;
