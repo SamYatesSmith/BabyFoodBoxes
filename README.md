@@ -89,17 +89,18 @@ The footer contains:
 
 - Home:
 
-<img src="">
-<img src="">
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/uxhome.png">
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/uxhome1.png">
 
 - Interested?: 
 
-<img src="">
-<img src="">
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/uxsurvey1.png">
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/uxsurvey.png">
+
 
 ### Colour Scheme
 
-<img src="">
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/colours.png">
 
 ## Testing
 
