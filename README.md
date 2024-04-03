@@ -129,7 +129,7 @@ The footer contains:
 7. As a user, I want to easily contact Happy Baby Belly by clicking on the 'Contact' button in the footer, so that I can ask questions or provide feedback.
 - Action: Provide a clear "Contact" button which opens up the users email provider with the target company email address already listed ready for the user to enquire. 
 
-### Derveloper considerations
+### Developer considerations
 
 1. As a developer, I want to ensure that the website is responsive across different devices, so that users can access it comfortably on mobile phones, tablets, and desktops.
 - Action:  Initiated various media queries to satisfy varrying screen sizes.
@@ -157,15 +157,24 @@ HTML Validation:
 CSS Validation:
 <img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/cssvalidation.png">
 
-### Deployment
+## Deployment
 
-Deployed via github pages successfully
+- Navigate to https://github.com/SamYatesSmith/BabyFoodBoxes.
+- Copy code provided in <code> box.
+- Navigate to the link "Settings"
+- On the left hand side of this page, find the "pages" page, click on this.
+- Deploy from branch "main".
+- Visit site once deployed.
 
-### Content & Credits
+## Content & Credits
 
 Site created by Sam Yates-Smith 2024
 
-### Info/Advice - Various sites in which I referred to for assistance.
+## Info/Advice - Various sites in which I referred to for assistance.
+
+### No code used from other peoples work directly
+
+- Here, however, are some resources used for advice on various topics.
 
 <https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum> - General tutorial information on various subjects
 
