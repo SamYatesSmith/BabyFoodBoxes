@@ -85,18 +85,21 @@ The footer contains:
 - The final question on the form mentions a project which I would like to build and link to this site. ("The Checker, By Edible" is a further project created on my github page: https://github.com/SamYatesSmith/IA-Menu-Checker.git)
 - Proper favicon HBB icon on the web browser heading.
 
-## Design / UI examples
+## Design / UI
 
 - Home:
 
-
-- Our Story:
-
+<img src="">
+<img src="">
 
 - Interested?: 
 
+<img src="">
+<img src="">
 
-- Products: 
+### Colour Scheme
+
+<img src="">
 
 ## Testing
 
@@ -125,13 +128,15 @@ The footer contains:
 7. As a user, I want to easily contact Happy Baby Belly by clicking on the 'Contact' button in the footer, so that I can ask questions or provide feedback.
 - Action: Provide a clear "Contact" button which opens up the users email provider with the target company email address already listed ready for the user to enquire. 
 
-As a developer, I want to ensure that the website is responsive across different devices, so that users can access it comfortably on mobile phones, tablets, and desktops.
+### Derveloper considerations
+
+1. As a developer, I want to ensure that the website is responsive across different devices, so that users can access it comfortably on mobile phones, tablets, and desktops.
 - Action:  Initiated various media queries to satisfy varrying screen sizes.
 
-As a developer, I want to optimize the website's meta tags for search engines, so that it ranks well and attracts more organic traffic.
+2. As a developer, I want to optimize the website's meta tags for search engines, so that it ranks well and attracts more organic traffic.
 - Action: Wrote numerous "content" tags to guide traffic via SEO.
 
-As a developer, I want to refactor the code to improve its readability and maintainability, so that future updates and enhancements can be implemented smoothly.
+3. As a developer, I want to refactor the code to improve its readability and maintainability, so that future updates and enhancements can be implemented smoothly.
 - Action: Listed comments headers to allow for simple perusal. Carefully selected class ad ID names to ensure there is an obvious link to the content within the class/ID.
 
 ### Form testing
@@ -141,14 +146,15 @@ As a developer, I want to refactor the code to improve its readability and maint
 <img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/formsuccess.png">
 
 ## Validator Testing
+- All pages tested
 
 HTML testing. No major errors. Barring info suppositions as mentioned in testing and this further affects images. Minor errors resolved
 CSS testing. No errors found.
 
 HTML Validation:
-
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/htmlvalidation.png">
 CSS Validation:
-
+<img src="https://github.com/SamYatesSmith/BabyFoodBoxes/blob/main/assets/images/README%20images/cssvalidation.png">
 
 ### Deployment
 
